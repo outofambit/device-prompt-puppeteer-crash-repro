@@ -1,0 +1,12 @@
+{
+  "extends": "@tsconfig/node18/tsconfig.json",
+  "compilerOptions": {
+    // "noImplicitAny": true,
+    // "strictNullChecks": true,
+    // "noImplicitThis": true,
+    // "useUnknownInCatchVariables": true,
+    // "noImplicitReturns": true,
+    // "noFallthroughCasesInSwitch": true
+  },
+  "files": ["index.ts"]
+}
