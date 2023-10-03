@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "script": "ts-node index.ts",
+    "build": "tsc",
+    "docker-run": "docker run --platform linux/amd64 -i --init --cap-add=SYS_ADMIN --rm ghcr.io/puppeteer/puppeteer:latest node -e \"$(cat ./index.js)\""
   },
   "author": "",
   "license": "ISC",
